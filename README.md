@@ -20,3 +20,32 @@ Python, Pandas, Scikit-learn, Prophet, Matplotlib, Power BI
 
 ## Status
 In Progress - Data collection and preparation phase
+
+## Technical Workflow & System Architecture
+
+```text
+[Raw 5-Year Excel Ledger] 
+          │
+          ▼
+┌───────────────────────────────────┐
+│     1. EXPLORATORY DATA ANALYSIS  │ --> Clean missing data, format dates,
+│         (Pandas & NumPy)          │     and handle human accounting errors.
+└───────────────────────────────────┘
+          │
+          ▼
+┌───────────────────────────────────┐
+│   2. DOMAIN FEATURE ENGINEERING   │ --> Inject custom rules (Exam drops,
+│         (Context Injection)       │     Summer velocity, Pilgrim cycles).
+└───────────────────────────────────┘
+          │
+          ▼
+┌───────────────────────────────────┐
+│    3. PREDICTIVE ML ENGINE        │ --> Train Time-Series, Classifiers,
+│        (Scikit-learn / Prophet)   │     and Cash Flow Regressors.
+└───────────────────────────────────┘
+          │
+          ▼
+┌───────────────────────────────────┐
+│      4. DEPLOYMENT & INTERFACE    │ --> Serve predictions via FastAPI/Dash
+│         (FastAPI & Power BI)      │     and display strategic BI metrics.
+└───────────────────────────────────┘
