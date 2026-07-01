@@ -19,7 +19,18 @@ footfall, Tamil Nadu exam seasons, crop rotation cycles, and weather factors.
 Python, Pandas, Scikit-learn, Prophet, Matplotlib, Power BI
 
 ## Status
-In Progress - Data collection and preparation phase
+In Progress - EDA Phase Complete. 750 delivery records analysed across 5+ years. Seasonal patterns, weekly supply cycles, and growth trends identified."
+
+
+## EDA Findings (Phase 1 Complete)
+
+- **Dataset:** 750 delivery days across 1,964 recorded dates (Feb 2021 - Jun 2026)
+- **Growth:** 6x increase in average daily supply from 2021 to 2024
+- **Seasonality:** Peak supply March-June, trough July-August (monsoon)
+- **Weekly pattern:** Thursday/Friday = harvest prep, Saturday/Sunday = primary delivery
+- **Supply model:** Demand-driven with unrestricted supply post-2022
+- **Key disruptions identified:** COVID waves 2021, college finals 2023, internship period 2025
+- **Record month:** March 2026 — 234 bundles (highest in business history)
 
 ## Technical Workflow & System Architecture
 
@@ -49,3 +60,5 @@ In Progress - Data collection and preparation phase
 │      4. DEPLOYMENT & INTERFACE    │ --> Serve predictions via FastAPI/Dash
 │         (FastAPI & Power BI)      │     and display strategic BI metrics.
 └───────────────────────────────────┘
+
+
