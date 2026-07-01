@@ -15,6 +15,10 @@ footfall, Tamil Nadu exam seasons, crop rotation cycles, and weather factors.
 - Supply Optimization Classifier
 - Cash Flow Prediction
 
+## Data
+Raw operational data not included in this repository for business privacy.
+Dataset contains 750+ daily delivery records from Feb 2021 - Jun 2026.
+
 ## Tech Stack
 Python, Pandas, Scikit-learn, Prophet, Matplotlib, Power BI
 
@@ -60,5 +64,3 @@ In Progress - EDA Phase Complete. 750 delivery records analysed across 5+ years.
 │      4. DEPLOYMENT & INTERFACE    │ --> Serve predictions via FastAPI/Dash
 │         (FastAPI & Power BI)      │     and display strategic BI metrics.
 └───────────────────────────────────┘
-
-
